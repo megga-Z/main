@@ -1,0 +1,72 @@
+body {
+    box-sizing: border-box;
+    background: #e3dcdc;
+    margin: 50px;
+    padding: 20px;
+    text-transform: capitalize;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-shadow: 0, 0, 0, .3 #5fb8d5;
+}
+
+p {
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+#rock {
+    padding: 10px;
+    margin: 3px;
+    font-size: 33px;
+    background: green;
+    outline: none;
+    border: none;
+    transition: 0.3s ease;
+    border-radius: 5px;
+}
+
+#paper {
+    padding: 10px;
+    margin: 3px;
+    font-size: 33px;
+    background: red;
+    outline: none;
+    border: none;
+    transition: 0.3s ease;
+    border-radius: 5px;
+}
+
+#scissors {
+    padding: 10px;
+    margin: 3px;
+    font-size: 33px;
+    background: yellow;
+    outline: none;
+    border: none;
+    transition: 0.3s ease;
+    border-radius: 5px;
+}
+
+#scissors:hover {
+    background: rgb(200, 255, 0);
+    transform: scale(1.02);
+}
+
+#rock:hover {
+    background: rgb(200, 255, 0);
+    transform: scale(1.02);
+}
+
+#paper:hover {
+    background: rgb(200, 255, 0);
+    transform: scale(1.02);
+}
