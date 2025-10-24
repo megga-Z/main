@@ -1,0 +1,46 @@
+body {
+    margin: 0;
+    background: linear-gradient(to left button lightgreen lightblue);
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: monospace;
+    color: darkcyan;
+}
+
+.container {
+    background: rgba(250, 250, 250, 0.3);
+    padding: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+    max-width: 450;
+    min-width: 350;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.heading {
+    font-size: 32px;
+}
+
+.temp-content {
+    padding: 15px;
+    width: 100%;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.input {
+    float: right;
+    width: 220px;
+    padding: 5px;
+    outline: none;
+    font-size: 18px;
+}
+
+.input::placeholder {
+    color: rgb(173, 168, 168);
+    font-family: monospace;
+}
