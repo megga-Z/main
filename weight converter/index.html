@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>weight converter</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="content">
+        <h1>weight converter</h1>
+        <div class="input-container">
+            <label for="pounds">pounds:</label>
+            <input oninput="computePound(event)" type="number" class="input" name="pounds" id="pounds" step=".1" placeholder="enter your weight">
+        </div>
+        <p>your weight in kg is: <span id="result"></span></p>
+        <p id="error"></p>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
